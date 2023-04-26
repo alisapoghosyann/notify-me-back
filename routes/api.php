@@ -12,10 +12,19 @@ Route::group([
 ], function () {
     Route::post('/login', [UserController::class, 'login']);
     Route::post('/register', [UserController::class, 'register']);
+//    Route::get('/sendSms', [UserController::class, 'sendSmsNotificaition']);
+    Route::post('/message', [UserController::class, 'message']);
+
 });
-Route::post('/message', [UserController::class, 'message']);
-Route::post('/code', [UserController::class, 'code']);
-Route::post('/create', [UserController::class, 'create']);
+
+
+Route::group([
+    'middleware' => 'api'
+], function () {
+    Route::post('/code', [UserController::class, 'code']);
+    Route::post('/create', [UserController::class, 'create']);
+});
+
 
 // Route::group([
 //     'middleware' => 'admin',

@@ -1,0 +1,44 @@
+Illuminate\Session\Store Object
+(
+    [id:protected] => TUOyfpkvJAAwB0pDZ85L8LFFArKW857z2erfAhei
+    [name:protected] => laravel_session
+    [attributes:protected] => Array
+        (
+            [_token] => TXMsJ9liUgffX8tDP63v0YnDn4eCvNrsnvaukJJC
+        )
+
+    [handler:protected] => Illuminate\Session\FileSessionHandler Object
+        (
+            [files:protected] => Illuminate\Filesystem\Filesystem Object
+                (
+                )
+
+            [path:protected] => /home/user/Desktop/notifymeback/storage/framework/sessions
+            [minutes:protected] => 120
+        )
+
+    [serialization:protected] => php
+    [started:protected] => 1
+)
+Illuminate\Session\Store Object
+(
+    [id:protected] => CZ2uCGGtWxdMHM81vhU06rxMTpcYAxDjpx8YSIx4
+    [name:protected] => laravel_session
+    [attributes:protected] => Array
+        (
+            [_token] => HlOiwqyXM0s0zO9NrODawFbjV76MhRAXMufdj11y
+        )
+
+    [handler:protected] => Illuminate\Session\FileSessionHandler Object
+        (
+            [files:protected] => Illuminate\Filesystem\Filesystem Object
+                (
+                )
+
+            [path:protected] => /home/user/Desktop/notifymeback/storage/framework/sessions
+            [minutes:protected] => 120
+        )
+
+    [serialization:protected] => php
+    [started:protected] => 1
+)

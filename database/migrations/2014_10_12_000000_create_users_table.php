@@ -19,6 +19,8 @@ return new class extends Migration
             $table->string('lastname');
             $table->string('email')->unique();
             $table->string('password');
+            $table->string('verification_code',6);
+            $table->string('status')->default(0);
             // $table->binary('img');
             // $table->boolean('Status')->default(1);
             $table->timestamps();
